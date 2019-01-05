@@ -1,0 +1,26 @@
+my_python_api/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── endpoints/
+│   │   │   ├── users.py
+│   │   │   └── auth.py
+│   │   └── models/
+│   │       ├── __init__.py
+│   │       └── user_model.py
+│   └── services/
+│       ├── __init__.py
+│       └── user_service.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_main.py
+│   └── test_users.py
+├── requirements.txt
+├── README.md
+├── setup.py
+├── config/
+│   └── config.yaml
+└── scripts/
+    └── run_server.sh

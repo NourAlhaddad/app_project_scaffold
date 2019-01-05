@@ -1,0 +1,28 @@
+my-springboot-app/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── app/
+│   │   │               ├── controller/
+│   │   │               │   └── HomeController.java
+│   │   │               ├── service/
+│   │   │               │   └── UserService.java
+│   │   │               └── model/
+│   │   │                   └── User.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── static/
+│   │           └── css/
+│   │               └── style.css
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── example/
+│                   └── app/
+│                       └── HomeControllerTest.java
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── README.md
