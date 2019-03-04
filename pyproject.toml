@@ -5,7 +5,7 @@ description = "A Python tool to scaffold projects from a folder structure specif
 readme = "README.md"
 requires-python = ">=3.7"
 authors = [
-    { name = "Your Name", email = "you@example.com" }
+    { name = "Nour Alhaddad", email = "nour.alhaddad@hotmail.com" }
 ]
 license = { file = "LICENSE" }
 keywords = ["scaffold", "project", "automation", "python"]
@@ -18,11 +18,18 @@ classifiers = [
     "Topic :: Software Development :: Build Tools"
 ]
 
-# Dependencies required to run your project
-[project.dependencies]
-# Add runtime dependencies here, e.g.,
-# "PyYAML >=5.3"
-# For now, scaffold has no external deps
+# Optional development dependencies
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "black>=23.0",
+    "isort>=5.12",
+    "flake8>=6.0"
+]
+
+# CLI entry points
+[project.scripts]
+scaffold = "create_project:main"
 
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
