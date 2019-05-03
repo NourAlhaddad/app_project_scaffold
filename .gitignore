@@ -27,11 +27,7 @@ pip-wheel-metadata/
 
 # Editors / IDEs
 .vscode/
-<<<<<<< HEAD
-.idea/
-=======
 .idea/
 
 # PEP 582 local packages
 __pypackages__/
->>>>>>> 1efcfa7 (Modify .gitignore to ignore virtual environments and local files)
